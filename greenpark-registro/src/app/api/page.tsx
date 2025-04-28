@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
-import useVisitanteHandler from '../../src/app/handlers/VisitanteHandler';
+import useVisitanteHandler from '../handlers/VisitanteHandler';
 import styles from './page.module.css';
 
 export default function Home() {
